@@ -30,12 +30,12 @@
   }
 
   nav {
-
     width: 100%;
   }
 
   ul {
     list-style: none;
+
   }
 
   li {
@@ -76,7 +76,7 @@
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
-
+    align-items: baseline;
   }
 
   .alert-info {
@@ -138,6 +138,9 @@
   footer {
     width: 100%;
     margin-top: 50px;
+  }
+  #social-media-links{
+    float: right;
   }
 
 }
